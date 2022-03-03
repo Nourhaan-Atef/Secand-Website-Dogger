@@ -11,7 +11,7 @@
   scroll-behavior: smooth;
 }
 /* Global Classes */
-section-padding {
+.section-padding {
   padding: 50px 0;
 }
 .section-text {
