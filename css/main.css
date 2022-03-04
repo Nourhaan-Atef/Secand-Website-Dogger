@@ -381,6 +381,9 @@ header nav ul li.nav-item a {
 
 /* End Section 4  */
 /* Start Section 5 */
+.section5 .container .section-text p {
+  width: 100%;
+}
 .section5 .container .cards .row {
   display: flex;
   justify-content: flex-start;
