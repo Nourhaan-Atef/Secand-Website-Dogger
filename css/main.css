@@ -381,9 +381,7 @@ header nav ul li.nav-item a {
 
 /* End Section 4  */
 /* Start Section 5 */
-.section5 .container .section-text p {
-  width: 100%;
-}
+
 .section5 .container .cards .row {
   display: flex;
   justify-content: flex-start;
@@ -462,7 +460,11 @@ header nav ul li.nav-item a {
 .section5 .container .cards .row .card:nth-of-type(2) button:hover {
   background: black;
 }
-
+@media (max-width: 990px) {
+  .section5 .container .section-pragraph {
+    width: 100%;
+  }
+}
 /* End Section 5 */
 
 /* Start Section 8 */
@@ -596,6 +598,7 @@ header nav ul li.nav-item a {
   flex-direction: column;
   background: #6c757d;
   height: 100vh;
+  margin-bottom: 0;
 }
 
 .section11 .container .row .contactUs h2 {
@@ -613,10 +616,10 @@ header nav ul li.nav-item a {
 }
 @media (max-width: 990px) {
   .section11 .container .row form {
-    height: 110vh;
+    height: 100vh;
   }
   .section11 .container .row .contactUs {
-    height: 80vh;
+    height: 70vh;
   }
 }
 
