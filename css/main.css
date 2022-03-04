@@ -404,16 +404,21 @@ header nav ul li.nav-item a {
   font-size: 28px;
   margin: 0 0 8px;
   font-weight: 500;
+  margin: auto;
 }
 .section5 .container .cards .row .card h2.card-title:nth-of-type(2) {
   margin: 0 0 24px;
   height: 50px;
+  margin: auto;
 }
 .section5 .container .cards .row .card h2.card-title span {
   font-size: 16px;
 }
 .section5 .container .cards .row .card h2.card-title span:first-of-type {
   font-size: 48px;
+}
+.section5 .container .cards .row .card .card-body {
+  padding: 30px 0;
 }
 .section5 .container .cards .row .card ul {
   list-style: none;
