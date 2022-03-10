@@ -11,7 +11,7 @@ var sticky = navbar.getBoundingClientRect().height;
 
 // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
 function myFunction() {
-  if (window.pageYOffset >= sticky + 30) {
+  if (window.pageYOffset >= sticky + 10) {
     navbar.classList.add("sticky");
     navbar.classList.add("swip");
   } else {
